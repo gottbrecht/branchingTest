@@ -5,6 +5,9 @@ public class Main {
 
         cat.makeSound();
         dog.makeSound();
+
+        cat.showMood(false);
+        dog.showMood(true);
     }
 
 }
